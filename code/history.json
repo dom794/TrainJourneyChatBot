@@ -1,0 +1,810 @@
+[
+     {
+          "message": "live trains",
+          "response": "Okay, we can look up live train times. What is the station you are travelling from?"
+     },
+     {
+          "message": "edenbridge",
+          "response": "And what is the destination station?"
+     },
+     {
+          "message": "tonbridge",
+          "response": "The first available train from EBR to TON is: <br>20:16 - the service is running on time from platform 2.<br><br>Do you want to see the full timetable?"
+     },
+     {
+          "message": "yes",
+          "response": "EBR to TON 20:16 - the service is departing on time from platform 2.<br>EBR to TON 21:16 - the service is departing on time from platform 2.<br>"
+     },
+     {
+          "message": "stop",
+          "response": "Okay. Do you need help with anything else?"
+     },
+     {
+          "message": "I want to get a train from cambridge",
+          "response": "What station are you travelling to?"
+     },
+     {
+          "message": "stop",
+          "response": "Booking process cancelled. Let me know if you need anything else! \ud83d\ude0a "
+     },
+     {
+          "message": "I want to get a train from cambridge to norwich",
+          "response": "What date are you travelling?"
+     },
+     {
+          "message": "stop",
+          "response": "Booking process cancelled. Let me know if you need anything else! \ud83d\ude0a "
+     },
+     {
+          "message": "I want to get a train from cambridge to norwich tomorrow",
+          "response": "What date are you travelling?"
+     },
+     {
+          "message": "stop",
+          "response": "Booking process cancelled. Let me know if you need anything else! \ud83d\ude0a "
+     },
+     {
+          "message": "I want to get a train from cambridge to norwich at 9pm ",
+          "response": "What date are you travelling?"
+     },
+     {
+          "message": "tomorrow",
+          "response": "What time are you travelling?"
+     },
+     {
+          "message": "hey",
+          "response": "Hello, what can I do for you?"
+     },
+     {
+          "message": "hey",
+          "response": "How can this chatbot help you today?"
+     },
+     {
+          "message": "how are you",
+          "response": "I am having a great day! But enough about me, how can I help you?"
+     },
+     {
+          "message": "hey",
+          "response": "Hi there, how can I help?"
+     },
+     {
+          "message": "hey",
+          "response": "Hi! How can I help?"
+     },
+     {
+          "message": "how are you",
+          "response": "I am having a great day! But enough about me, how can I help you?"
+     },
+     {
+          "message": "hey",
+          "response": "Hi there, what can I do for you?"
+     },
+     {
+          "message": "how are you",
+          "response": "I am having a great day! But enough about me, how can I help you?"
+     },
+     {
+          "message": "Hi there ",
+          "response": "How can this chatbot help you today?"
+     },
+     {
+          "message": "It can help me book a train",
+          "response": "Sorry I did not understand that. Please try again."
+     },
+     {
+          "message": "Book a train",
+          "response": "What station are you travelling from?"
+     },
+     {
+          "message": "Tonbridge to edenbridge",
+          "response": "What station are you travelling to?"
+     },
+     {
+          "message": "Tonbridge",
+          "response": "You cannot book a ticket to the same location. Please enter a different destination."
+     },
+     {
+          "message": "Edenbridge",
+          "response": "What date are you travelling?"
+     },
+     {
+          "message": "today",
+          "response": "What time are you travelling?"
+     },
+     {
+          "message": "now",
+          "response": "Do you have a railcard?"
+     },
+     {
+          "message": "stop",
+          "response": "Booking process cancelled. Let me know if you need anything else! \ud83d\ude0a "
+     },
+     {
+          "message": "book a train",
+          "response": "What station are you travelling from?"
+     },
+     {
+          "message": "tonbridge",
+          "response": "What station are you travelling to?"
+     },
+     {
+          "message": "edenbridge",
+          "response": "What date are you travelling?"
+     },
+     {
+          "message": "today",
+          "response": "What time are you travelling?"
+     },
+     {
+          "message": "1pm",
+          "response": "Do you have a railcard?"
+     },
+     {
+          "message": "no",
+          "response": "Do you want to book a return ticket?"
+     },
+     {
+          "message": "no",
+          "response": "<b>Outward Journey</b> \u27a1\ufe0f<br>Price: \n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\u00a35.50\n\t\t\t\t\t\t\t\t<br>Estimated Time: 15m<br>On time\u2705 <br>Ticket <a href='https://ojp.nationalrail.co.uk/service/timesandfares/TON/EBR/300523/1300/dep'>link</a><br>"
+     },
+     {
+          "message": "book a train from norwich to ely",
+          "response": "What date are you travelling?"
+     },
+     {
+          "message": "tomorrow",
+          "response": "What time are you travelling?"
+     },
+     {
+          "message": "now",
+          "response": "Do you have a railcard?"
+     },
+     {
+          "message": "no",
+          "response": "Do you want to book a return ticket?"
+     },
+     {
+          "message": "no",
+          "response": "<b>Outward Journey</b> \u27a1\ufe0f<br>Price: \n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\u00a311.60\n\t\t\t\t\t\t\t\t<br>Estimated Time: 54m<br>Ticket <a href='https://ojp.nationalrail.co.uk/service/timesandfares/NRW/ELY/310523/2030/dep'>link</a><br>"
+     },
+     {
+          "message": "live trains please",
+          "response": "Okay, we can look up live train times. What is the station you are travelling from?"
+     },
+     {
+          "message": "norwich",
+          "response": "And what is the destination station?"
+     },
+     {
+          "message": "ely",
+          "response": "The first available train from NRW to ELY is: <br>21:12 - the service is running on time from platform 3.<br><br>Do you want to see the full timetable?"
+     },
+     {
+          "message": "yes",
+          "response": "NRW to ELY 21:12 - the service is departing on time from platform 3.<br>"
+     },
+     {
+          "message": "stop",
+          "response": "Okay. Do you need help with anything else?"
+     },
+     {
+          "message": "live trains",
+          "response": "Okay, we can look up live train times. What is the station you are travelling from?"
+     },
+     {
+          "message": "cambridge",
+          "response": "And what is the destination station?"
+     },
+     {
+          "message": "ely",
+          "response": "The first available train from CBG to ELY is: <br>20:24 - the service is running on time from platform 1.<br><br>Do you want to see the full timetable?"
+     },
+     {
+          "message": "yes",
+          "response": "CBG to ELY 20:24 - the service is departing on time from platform 1.<br>CBG to ELY 20:35 - the service is departing 20:36 from platform 1.<br>CBG to ELY 21:00 - the service is departing on time from platform 4.<br>CBG to ELY 21:03 - the service is departing on time from platform 1.<br>CBG to ELY 21:20 - the service is departing on time from platform 6.<br>CBG to ELY 21:35 - the service is departing on time from platform 1.<br>CBG to ELY 22:05 - the service is departing on time from platform 1.<br>"
+     },
+     {
+          "message": "can you tell me live trains please",
+          "response": "Okay, we can look up live train times. What is the station you are travelling from?"
+     },
+     {
+          "message": "cambridge",
+          "response": "And what is the destination station?"
+     },
+     {
+          "message": "ely",
+          "response": "The first available train from CBG to ELY is: <br>20:24 - the service is running on time from platform 1.<br><br>Do you want to see the full timetable?"
+     },
+     {
+          "message": "yes",
+          "response": "CBG to ELY 20:24 - the service is departing on time from platform 1.<br>CBG to ELY 20:35 - the service is departing 20:36 from platform 1.<br>CBG to ELY 21:00 - the service is departing on time from platform 4.<br>CBG to ELY 21:03 - the service is departing on time from platform 1.<br>CBG to ELY 21:20 - the service is departing on time from platform 6.<br>CBG to ELY 21:35 - the service is departing on time from platform 1.<br>CBG to ELY 22:05 - the service is departing on time from platform 1.<br>"
+     },
+     {
+          "message": "Hi, can i book a train from tonbridge to edenbridge tomorrow",
+          "response": "What date are you travelling?"
+     },
+     {
+          "message": "Hi, can i book a train from tonbridge to edenbridge tomorrow",
+          "response": "What date are you travelling?"
+     },
+     {
+          "message": "can i book a train please",
+          "response": "What station are you travelling from?"
+     },
+     {
+          "message": "can i book a train please",
+          "response": "What station are you travelling from?"
+     },
+     {
+          "message": "tonbridge",
+          "response": "What station are you travelling to?"
+     },
+     {
+          "message": "edenbridge",
+          "response": "What date are you travelling?"
+     },
+     {
+          "message": "today",
+          "response": "What time are you travelling?"
+     },
+     {
+          "message": "1pm",
+          "response": "Please enter a valid time in the future"
+     },
+     {
+          "message": "2:00",
+          "response": "Please enter a valid time in the future"
+     },
+     {
+          "message": "7pm",
+          "response": "Please enter a valid time in the future"
+     },
+     {
+          "message": "14:39",
+          "response": "Please enter a valid time in the future"
+     },
+     {
+          "message": "14:39pm",
+          "response": "Please enter a valid time in the future"
+     },
+     {
+          "message": "now",
+          "response": "Please enter a valid time in the future"
+     },
+     {
+          "message": "9:30pm",
+          "response": "Do you have a railcard?"
+     },
+     {
+          "message": "no",
+          "response": "Do you want to book a return ticket?"
+     },
+     {
+          "message": "no",
+          "response": "<b>Outward Journey</b> \u27a1\ufe0f<br>Price: \n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\u00a35.50\n\t\t\t\t\t\t\t\t<br>Estimated Time: 15m<br>On time\u2705 <br>Ticket <a href='https://ojp.nationalrail.co.uk/service/timesandfares/TON/EBR/300523/2130/dep'>link</a><br>"
+     },
+     {
+          "message": "book a train",
+          "response": "What station are you travelling from?"
+     },
+     {
+          "message": "edenbridge",
+          "response": "What station are you travelling to?"
+     },
+     {
+          "message": "tonbridge",
+          "response": "What date are you travelling?"
+     },
+     {
+          "message": "today",
+          "response": "What time are you travelling?"
+     },
+     {
+          "message": "book a train from edenbridge to tonbridge",
+          "response": "What date are you travelling?"
+     },
+     {
+          "message": "today",
+          "response": "What time are you travelling?"
+     },
+     {
+          "message": "book a train from edenbridge to tonbridge",
+          "response": "What date are you travelling?"
+     },
+     {
+          "message": "today",
+          "response": "What time are you travelling?"
+     },
+     {
+          "message": "book a train from edenbridge to tonbridge",
+          "response": "What date are you travelling?"
+     },
+     {
+          "message": "today",
+          "response": "What time are you travelling?"
+     },
+     {
+          "message": "book a train from edenbridge to tonbridge today",
+          "response": "What station are you travelling to?"
+     },
+     {
+          "message": "tonbridge",
+          "response": "What date are you travelling?"
+     },
+     {
+          "message": "today",
+          "response": "What time are you travelling?"
+     },
+     {
+          "message": "today book a train edenbridge to tonbridge",
+          "response": "What date are you travelling?"
+     },
+     {
+          "message": "today",
+          "response": "What time are you travelling?"
+     },
+     {
+          "message": "today",
+          "response": "What station are you travelling from?"
+     },
+     {
+          "message": "book a train edenbridge to tonbridge",
+          "response": "What time are you travelling?"
+     },
+     {
+          "message": "now",
+          "response": "Do you have a railcard?"
+     },
+     {
+          "message": "book a train edenbridge to tonbridge",
+          "response": "What date are you travelling?"
+     },
+     {
+          "message": "today",
+          "response": "What time are you travelling?"
+     },
+     {
+          "message": "1pm",
+          "response": "Please enter a valid time in the future"
+     },
+     {
+          "message": "2am",
+          "response": "Please enter a valid time in the future"
+     },
+     {
+          "message": "9pm",
+          "response": "Please enter a valid time in the future"
+     },
+     {
+          "message": "9:30pm",
+          "response": "Please enter a valid time in the future"
+     },
+     {
+          "message": "9:34pm",
+          "response": "Do you have a railcard?"
+     },
+     {
+          "message": "no",
+          "response": "Do you want to book a return ticket?"
+     },
+     {
+          "message": "yes",
+          "response": "What date do you want to return?"
+     },
+     {
+          "message": "today",
+          "response": "What time do you want to return?"
+     },
+     {
+          "message": "9pm",
+          "response": "Your return time can't be earlier than your outgoing journey. Please enter a valid return time in the format HH:MM or HH am / HH pm <br> You can type 'stop' to exit this booking process."
+     },
+     {
+          "message": "now",
+          "response": "Your return time can't be earlier than your outgoing journey. Please enter a valid return time in the format HH:MM or HH am / HH pm <br> You can type 'stop' to exit this booking process."
+     },
+     {
+          "message": "book a train cambridge to ely 15th of June",
+          "response": "What station are you travelling to?"
+     },
+     {
+          "message": "ely",
+          "response": "What date are you travelling?"
+     },
+     {
+          "message": "15th June",
+          "response": "Please enter a valid time in the future"
+     },
+     {
+          "message": "15th of June",
+          "response": "Please enter a valid time in the future"
+     },
+     {
+          "message": "10:15",
+          "response": "Please enter a valid time in the future"
+     },
+     {
+          "message": "11pm",
+          "response": "Do you have a railcard?"
+     },
+     {
+          "message": "no",
+          "response": "Do you want to book a return ticket?"
+     },
+     {
+          "message": "yes",
+          "response": "What date do you want to return?"
+     },
+     {
+          "message": "tomorrow",
+          "response": "What time do you want to return?"
+     },
+     {
+          "message": "book a train",
+          "response": "What station are you travelling from?"
+     },
+     {
+          "message": "ely",
+          "response": "What station are you travelling to?"
+     },
+     {
+          "message": "norwich",
+          "response": "What date are you travelling?"
+     },
+     {
+          "message": "today",
+          "response": "What time are you travelling?"
+     },
+     {
+          "message": "now",
+          "response": "Do you have a railcard?"
+     },
+     {
+          "message": "no",
+          "response": "Do you want to book a return ticket?"
+     },
+     {
+          "message": "yes",
+          "response": "What date do you want to return?"
+     },
+     {
+          "message": "tomorrow",
+          "response": "What time do you want to return?"
+     },
+     {
+          "message": "4pm",
+          "response": "<b>Outward Journey</b> \u27a1\ufe0f<br>Price: \n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\u00a320.80\n\t\t\t\t\t\t\t\t<br>Estimated Time: 58m<br>On time\u2705 <br><br><b>Return Journey \u2b05\ufe0f</b><br>Price: \n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\u00a311.60\n\t\t\t\t\t\t\t\t<br>Estimated Time: 54m<br><br>Total Price: \u00a332.4<br>Ticket <a href='https://ojp.nationalrail.co.uk/service/timesandfares/ELY/NRW/300523/2145/dep/310523/1600/dep'>link</a><br>"
+     },
+     {
+          "message": "hey",
+          "response": "How can this chatbot help you today?"
+     },
+     {
+          "message": "hey",
+          "response": "Hello, what can I do for you?"
+     },
+     {
+          "message": "train delays",
+          "response": "Okay, we can look up live train times. What is the station you are travelling from?"
+     },
+     {
+          "message": "stop",
+          "response": "Okay, I've stopped looking up live train times. What else can I help you with?"
+     },
+     {
+          "message": "can i look at train delays",
+          "response": "Sorry I did not understand that. Please try again."
+     },
+     {
+          "message": "train delays",
+          "response": "Okay, we can look up live train times. What is the station you are travelling from?"
+     },
+     {
+          "message": "stop",
+          "response": "Okay, I've stopped looking up live train times. What else can I help you with?"
+     },
+     {
+          "message": "book a train",
+          "response": "What station are you travelling from?"
+     },
+     {
+          "message": "stop",
+          "response": "Booking process cancelled. Let me know if you need anything else! \ud83d\ude0a "
+     },
+     {
+          "message": "look at predicted departures",
+          "response": "Please enter the station name"
+     },
+     {
+          "message": "Norwich",
+          "response": "Sorry I did not understand that. Please try again."
+     },
+     {
+          "message": "book a train",
+          "response": "What station are you travelling from?"
+     },
+     {
+          "message": "stop",
+          "response": "Booking process cancelled. Let me know if you need anything else! \ud83d\ude0a "
+     },
+     {
+          "message": "predict train delays",
+          "response": "Please enter the station name you'd like to check"
+     },
+     {
+          "message": "Norwich",
+          "response": "Sorry I did not understand that. Please try again."
+     },
+     {
+          "message": "predict ",
+          "response": "Sorry I did not understand that. Please try again."
+     },
+     {
+          "message": "train delays",
+          "response": "Please enter the station name you'd like to check"
+     },
+     {
+          "message": "train delays",
+          "response": "Please enter the station name you'd like to check"
+     },
+     {
+          "message": "train delays",
+          "response": "Please enter the station name you'd like to check"
+     },
+     {
+          "message": "train delays",
+          "response": "Please enter the station name you'd like to check"
+     },
+     {
+          "message": "Norwich",
+          "response": "Please enter a valid station name on the Waterloo to Weymouth line"
+     },
+     {
+          "message": "Weymouth",
+          "response": "Please enter a valid station name on the Waterloo to Weymouth line"
+     },
+     {
+          "message": "Weymouth",
+          "response": "Please enter a valid station name on the Waterloo to Weymouth line"
+     },
+     {
+          "message": "weybridge ",
+          "response": "Please enter a valid station name on the Waterloo to Weymouth line"
+     },
+     {
+          "message": "book a ticket",
+          "response": "What station are you travelling from?"
+     },
+     {
+          "message": "cambridge",
+          "response": "What station are you travelling to?"
+     },
+     {
+          "message": "norwich",
+          "response": "What date are you travelling?"
+     },
+     {
+          "message": "hey",
+          "response": "Hi there, how can I help?"
+     },
+     {
+          "message": "i want to book a ticket",
+          "response": "What station are you travelling from?"
+     },
+     {
+          "message": "cambridge",
+          "response": "What station are you travelling to?"
+     },
+     {
+          "message": "norwich",
+          "response": "What date are you travelling?"
+     },
+     {
+          "message": "hey",
+          "response": "Hey, what can I do for you?"
+     },
+     {
+          "message": "i want to book a ticket",
+          "response": "What station are you travelling from?"
+     },
+     {
+          "message": "cambridge",
+          "response": "What station are you travelling to?"
+     },
+     {
+          "message": "norwich",
+          "response": "What date are you travelling?"
+     },
+     {
+          "message": "tomorrow",
+          "response": "What time are you travelling?"
+     },
+     {
+          "message": "12am",
+          "response": "Please enter a valid time in the future"
+     },
+     {
+          "message": "12",
+          "response": "Please enter a valid time in the future"
+     },
+     {
+          "message": "234",
+          "response": "Please enter your time in the format HH:MM or HH am / HH pm <br> You can type 'stop' to exit this booking process."
+     },
+     {
+          "message": "24:00",
+          "response": "Please enter your time in the format HH:MM or HH am / HH pm <br> You can type 'stop' to exit this booking process."
+     },
+     {
+          "message": "11am",
+          "response": "Do you have a railcard?"
+     },
+     {
+          "message": "no",
+          "response": "Do you want to book a return ticket?"
+     },
+     {
+          "message": "hey",
+          "response": "Hey, what can I do for you?"
+     },
+     {
+          "message": "i want to book a ticket",
+          "response": "What station are you travelling from?"
+     },
+     {
+          "message": "london bridge",
+          "response": "What station are you travelling to?"
+     },
+     {
+          "message": "cambridge",
+          "response": "What date are you travelling?"
+     },
+     {
+          "message": "tomorrow",
+          "response": "What time are you travelling?"
+     },
+     {
+          "message": "12am",
+          "response": "Please enter a valid time in the future"
+     },
+     {
+          "message": "4pm",
+          "response": "Do you have a railcard?"
+     },
+     {
+          "message": "no",
+          "response": "Do you want to book a return ticket?"
+     },
+     {
+          "message": "i want to book a ticket from cambridge to ely",
+          "response": "What date are you travelling?"
+     },
+     {
+          "message": "tomorrow",
+          "response": "What time are you travelling?"
+     },
+     {
+          "message": "12am",
+          "response": "Please enter a valid time in the future"
+     },
+     {
+          "message": "book a ticket",
+          "response": "What station are you travelling from?"
+     },
+     {
+          "message": "cambridge",
+          "response": "What station are you travelling to?"
+     },
+     {
+          "message": "ely",
+          "response": "What date are you travelling?"
+     },
+     {
+          "message": "tomorrow",
+          "response": "What time are you travelling?"
+     },
+     {
+          "message": "12am",
+          "response": "Please enter a valid time in the future"
+     },
+     {
+          "message": "12pm",
+          "response": "Do you have a railcard?"
+     },
+     {
+          "message": "yes",
+          "response": "Please enter the name of your railcard. For information about railcards you can visit our <a href='https://www.nationalrail.co.uk/tickets-railcards-and-offers/railcards/'>railcard page.</a> <br> You can type 'stop' to exit this booking process."
+     },
+     {
+          "message": "16-17 railcard",
+          "response": "Do you want to book a return ticket?"
+     },
+     {
+          "message": "yes",
+          "response": "What date do you want to return?"
+     },
+     {
+          "message": "tomorrow",
+          "response": "What time do you want to return?"
+     },
+     {
+          "message": "12am",
+          "response": "Your return time can't be earlier than your outgoing journey. Please enter a valid return time in the format HH:MM or HH am / HH pm <br> You can type 'stop' to exit this booking process."
+     },
+     {
+          "message": "1am",
+          "response": "Your return time can't be earlier than your outgoing journey. Please enter a valid return time in the format HH:MM or HH am / HH pm <br> You can type 'stop' to exit this booking process."
+     },
+     {
+          "message": "13pm",
+          "response": "Please enter your time in the format HH:MM or HH am / HH pm <br> You can type 'stop' to exit this booking process."
+     },
+     {
+          "message": "13:00",
+          "response": "<b>Outward Journey</b> \u27a1\ufe0f<br>Price: \n\t\t\t\t\t\t\t\t\t\t \n\t\t\t\t\t\t\t\t\t\t\t\u00a33.20\n\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t<br>Estimated Time: 16m<br><br>Total Price: \u00a33.2<br>Ticket <a href='https://ojp.nationalrail.co.uk/service/timesandfares/CBG/ELY/010623/1200/dep/010623/1300/dep'>link</a><br>"
+     },
+     {
+          "message": "book a ticket",
+          "response": "What station are you travelling from?"
+     },
+     {
+          "message": "cambridge",
+          "response": "What station are you travelling to?"
+     },
+     {
+          "message": "ely",
+          "response": "What date are you travelling?"
+     },
+     {
+          "message": "tomorrow",
+          "response": "What time are you travelling?"
+     },
+     {
+          "message": "tomorrow",
+          "response": "Do you have a railcard?"
+     },
+     {
+          "message": "no",
+          "response": "Do you want to book a return ticket?"
+     },
+     {
+          "message": "yes",
+          "response": "What date do you want to return?"
+     },
+     {
+          "message": "5pm",
+          "response": "What time do you want to return?"
+     },
+     {
+          "message": "hello",
+          "response": "Hi! How can I help?"
+     },
+     {
+          "message": "book a ticket",
+          "response": "What station are you travelling from?"
+     },
+     {
+          "message": "cambridge]",
+          "response": "What station are you travelling to?"
+     },
+     {
+          "message": "ely",
+          "response": "What date are you travelling?"
+     },
+     {
+          "message": "tomorrow",
+          "response": "What time are you travelling?"
+     },
+     {
+          "message": "3pm",
+          "response": "Do you have a railcard?"
+     },
+     {
+          "message": "no",
+          "response": "Do you want to book a return ticket?"
+     },
+     {
+          "message": "no",
+          "response": "<b>Outward Journey</b> \u27a1\ufe0f<br>Price: \n\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\u00a33.10\n\t\t\t\t\t\t\t\t<br>Estimated Time: 16m<br>Ticket <a href='https://ojp.nationalrail.co.uk/service/timesandfares/CBG/ELY/010623/1500/dep'>link</a><br>"
+     }
+]

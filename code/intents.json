@@ -1,0 +1,255 @@
+{
+   "intents":[
+      {
+         "tag":"greeting",
+         "patterns":[
+            "Hi",
+            "Are you there?",
+            "hey",
+            "hi there",
+            "salut",
+            "bonjour",
+            "hello",
+            "howdy",
+            "hey there",
+            "greetings"
+         ],
+         "responses":[
+            "Hi there, how can I help?",
+            "Hello, how can I help?",
+            "Hey, how may I help?",
+            "Hi there, what can I do for you?",
+            "Hello, what can I do for you?",
+            "Hey, what can I do for you?",
+            "How can this chatbot help you today?",
+            "Hi! How can I help?"
+         ],
+         "context":[
+            ""
+         ]
+      },
+         {
+         "tag":"smalltalk",
+         "patterns":[
+            "how are you doing",
+            "how do you do",
+            "how are you",
+            "how are you today",
+            "how are you doing today",
+            "how is your day",
+            "how is your day going"
+         ],
+         "responses":[
+            "I am having a great day! But enough about me, how can I help you?"
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"identity",
+         "patterns":[
+            "who are you",
+            "what are you",
+            "what is your name",
+            "what should I call you",
+            "name please"
+         ],
+         "responses":[
+            "I am Thomas the Train Bot, built to help you with your train travel needs."
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"goodbye",
+         "patterns":[
+            "Bye",
+            "Goodbye",
+            "Bye bye",
+            "Have a nice day",
+            "see you",
+            "see ya",
+            "see you later alligator",
+            "bye",
+            "see you later"
+         ],
+         "responses":[
+            "See you later",
+            "Have a nice day",
+            "Bye! Come back again soon.",
+            "Thanks for chatting to me! Goodbye."
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"booking",
+         "patterns":[
+            "I want to book a ticket",
+            "I would like to book a ticket",
+            "I want a train ticket",
+            "I want to book a train ticket",
+            "Ticket booking",
+            "Book a ticket",
+            "book",
+            "booking",
+            "Can I book a train from {source} to {destination} on {date}?",
+            "Can I book a train from {source} to {destination}?",
+            "I want to book a train from {source} to {destination} on {date}",
+            "I want to book a train from {source} to {destination}"
+         ],
+         "responses":[
+            "Where would you like to go?",
+            "What is your destination?"
+         ],
+         "context":"booking-with-destination"
+      },
+      {
+         "tag":"booking-with-source",
+         "patterns":[
+            "I want to book a ticket from {source}",
+            "I would like to book a ticket from {source}",
+            "I want a train ticket from {source}",
+            "I want to book a train ticket from {source}"
+         ],
+         "responses":[
+            "Where would you like to go?",
+            "What is your destination?"
+         ],
+         "context":[
+            "destination"
+         ],
+         "slots":[
+            "source"
+         ]
+      },
+      {
+         "tag":"booking-with-destination",
+         "patterns":[
+            "I want to book a ticket to {destination}",
+            "I would like to book a ticket to {destination}",
+            "I want a train ticket to {destination}"
+         ],
+         "responses":[
+            "What is your depature date?"
+         ],
+         "context":[
+            ""
+         ],
+         "slots":[
+            "destination"
+         ]
+      },
+      {
+         "tag":"thanks",
+         "patterns":[
+            "Thanks",
+            "Thank you",
+            "That's helpful",
+            "Thanks for your help"
+         ],
+         "responses":[
+            "Happy to help!",
+            "Any time!",
+            "My pleasure"
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"options",
+         "patterns":[
+            "What are my options?",
+            "What can I do?",
+            "What can I do next?",
+            "help",
+            "options",
+            "what can you do?",
+            "help me"
+         ],
+         "responses":[
+            "With Thomas the Train Bot you can: <br><br> - Book a train ticket <br> - Look up a station <br> - Look up train delays <br> - Look up live trains <br><br> What would you like to do?"
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"station-lookup",
+         "patterns":[
+            "what is the nearest station to me?",
+            "what is the nearest station?",
+            "look up a station",
+            "find a station",
+            "find a station near me",
+            "find a station near",
+            "search for stations"
+         ],
+         "responses":[
+            "What is your location? (e.g part of a station name, city) <br><br> You can type 'stop' to cancel."
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"train-delay",
+         "patterns":[
+            "i want to look up train delays for {station}",
+            "can i look at train delays",
+            "train delays please",
+            "can i look at predicted passing times",
+            "can i look at predicted passing times for {station}",
+            "predicted passing times please",
+            "predicted passing times for {station}",
+            "predicted departure times please",
+            "predicted departure times for {station}",
+            "i want to look up predicted departure times for {station} at {time}",
+            "i want to look up predicted departure times"
+         ],
+         "responses":[
+            "Loading train delay... "
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"live-trains",
+         "patterns":[
+            "show me live trains",
+            "show me live trains from",
+            "show me timetable",
+            "show me timetable from",
+            "show me trains",
+            "live train data",
+            "live trains",
+            "next train",
+            "first available train",
+            "first train",
+            "next available train"         
+         ],
+         "responses":[
+            "What station do you want to travel from?"
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"unknown",
+         "patterns":[        
+         ],
+         "responses":[
+            "Sorry I did not understand that. Please try again."
+         ],
+         "context":[
+            ""
+         ]
+      }
+   ]
+}

@@ -1,0 +1,178 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+html {
+  overflow: hidden;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-image: url(https://cdn.discordapp.com/attachments/1081249315470704761/1088860765030719649/Train_Station.jpg);
+  background-size: cover;
+}
+.background-filter {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+.chat-window,
+.chatbot-info {
+  z-index: 2;
+}
+.chat-window {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 867px;
+  margin: 25px 10px;
+  height: calc(100% - 50px);
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.703);
+  box-shadow: 0 15px 15px -5px rgba(0, 0, 0, 0.2);
+}
+.chatbot-info {
+  padding: 30px;
+  text-align: left;
+  background: rgba(255, 255, 255, 0.818);
+  color: #000000;
+  height: calc(100% - 50px);
+  width: 250px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 15px 15px -5px rgba(0, 0, 0, 0.2);
+  position: relative;
+}
+.chatbot-image {
+  display: block;
+  width: 130px;
+  height: 130px;
+  border-radius: 45%;
+  box-shadow: rgb(255, 255, 255) 0px 0px 0px 1px;
+  margin: 0 auto;
+}
+.ad-image {
+  margin-top: 60px;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+
+  box-shadow: #ffffff 0px 0px 0px 1px;
+}
+.chatbot-info-content h1 {
+  padding: 10px;
+  text-align: center;
+}
+
+.chat-area {
+  flex: 1;
+  overflow-y: auto;
+  padding: 10px;
+}
+.chat-area::-webkit-scrollbar {
+  width: 6px;
+}
+.chat-area::-webkit-scrollbar-track {
+  background: #ddd;
+}
+.chat-area::-webkit-scrollbar-thumb {
+  background: #bdbdbd;
+}
+.msg {
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 10px;
+}
+.msg-img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  background: #ddd;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%;
+}
+.msg-bubble {
+  max-width: 450px;
+  padding: 15px;
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.703);
+  word-wrap: break-word;
+}
+.msg-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.msg-info-name {
+  margin-right: 10px;
+  font-weight: bold;
+}
+.msg-info-time {
+  font-size: 0.85em;
+}
+.left-msg .msg-bubble {
+  border-bottom-left-radius: 0;
+}
+.right-msg {
+  flex-direction: row-reverse;
+}
+.right-msg .msg-bubble {
+  background: rgb(74, 74, 74);
+  color: #fff;
+  border-bottom-right-radius: 0;
+}
+.right-msg .msg-img {
+  margin: 0 0 0 10px;
+}
+.user-input-form {
+  display: flex;
+  padding: 20px;
+  border-top: 2px solid #ddd;
+  background: #eee;
+}
+.user-input-form * {
+  padding: 20px;
+  border: none;
+  border-radius: 3px;
+  font-size: 1em;
+}
+.user-input {
+  flex: 1;
+  background: #bfbfbf;
+  border: none;
+}
+.user-input-send-btn {
+  margin-left: 25px;
+  background: #bfbfbf;
+  cursor: pointer;
+  font-style: bold;
+  transition: background 0.3s ease-in-out;
+  font-size: 20px;
+}
+.user-input-send-btn:hover {
+  background: rgb(151, 151, 151);
+}
+#tts-button {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  background: #bfbfbf;
+  border: none;
+  cursor: pointer;
+}
